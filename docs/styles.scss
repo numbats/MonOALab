@@ -1,0 +1,28 @@
+$primary: #003366;   // Monash blue
+$secondary: #006DAE;
+
+.hero img {
+  display: block;
+  margin: 0 auto;
+  max-height: 80px; /* keep logo proportionate */
+}
+
+body {
+  font-family: "Helvetica Neue", Arial, sans-serif;
+}
+
+.navbar {
+  background-color: #006DAE;
+}
+
+.navbar a {
+  color: white !important;
+}
+
+h1, h2, h3 {
+  color: $primary;
+}
+
+a {
+  color: $secondary;
+}
