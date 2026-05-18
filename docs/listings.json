@@ -1,16 +1,17 @@
 [
   {
-    "listing": "/posts.html",
-    "items": [
-      "/posts/2026-04-launch.html"
-    ]
-  },
-  {
     "listing": "/projects.html",
     "items": [
+      "/projects/workshops.html",
       "/projects/moodlequiz.html",
       "/projects/quarto-templates.html",
       "/projects/software.html"
+    ]
+  },
+  {
+    "listing": "/posts.html",
+    "items": [
+      "/posts/2026-04-launch.html"
     ]
   }
 ]
