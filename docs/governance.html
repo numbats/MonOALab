@@ -6,8 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="dcterms.date" content="2026-05-19">
 
-<title>Projects – Monash Open Analytics Lab</title>
+<title>Impact Lab Governance Document – Monash Open Analytics Lab</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -33,8 +34,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
@@ -72,79 +71,7 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script>window.backupDefine = window.define; window.define = undefined;</script><script src="https://cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.js"></script>
-  <script>document.addEventListener("DOMContentLoaded", function () {
- var mathElements = document.getElementsByClassName("math");
- var macros = [];
- for (var i = 0; i < mathElements.length; i++) {
-  var texText = mathElements[i].firstChild;
-  if (mathElements[i].tagName == "SPAN") {
-   katex.render(texText.data, mathElements[i], {
-    displayMode: mathElements[i].classList.contains('display'),
-    throwOnError: false,
-    macros: macros,
-    fleqn: false
-   });
-}}});
-  </script>
-  <script>window.define = window.backupDefine; window.backupDefine = undefined;</script><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.css">
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 <link rel="stylesheet" href="styles.scss">
 </head>
@@ -175,7 +102,7 @@ window.Quarto = {
 <span class="menu-text">People</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./projects.html" aria-current="page"> 
+    <a class="nav-link" href="./projects.html"> 
 <span class="menu-text">Projects</span></a>
   </li>  
   <li class="nav-item">
@@ -185,7 +112,7 @@ window.Quarto = {
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./governance.html"> 
+    <a class="nav-link active" href="./governance.html" aria-current="page"> 
 <span class="menu-text">Governance</span></a>
   </li>  
   <li class="nav-item">
@@ -207,7 +134,7 @@ window.Quarto = {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Projects</li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Impact Lab Governance Document</li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -226,15 +153,59 @@ window.Quarto = {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#purpose-scope" id="toc-purpose-scope" class="nav-link active" data-scroll-target="#purpose-scope">Purpose &amp; Scope</a></li>
+  <li><a href="#structure-leadership" id="toc-structure-leadership" class="nav-link" data-scroll-target="#structure-leadership">Structure &amp; Leadership</a>
+  <ul class="collapse">
+  <li><a href="#lab-director" id="toc-lab-director" class="nav-link" data-scroll-target="#lab-director">Lab Director</a></li>
+  <li><a href="#leadership-team" id="toc-leadership-team" class="nav-link" data-scroll-target="#leadership-team">Leadership Team</a></li>
+  <li><a href="#advisory-board" id="toc-advisory-board" class="nav-link" data-scroll-target="#advisory-board">Advisory Board</a></li>
+  <li><a href="#succession" id="toc-succession" class="nav-link" data-scroll-target="#succession">Succession</a></li>
+  </ul></li>
+  <li><a href="#roles-responsibilities" id="toc-roles-responsibilities" class="nav-link" data-scroll-target="#roles-responsibilities">Roles &amp; Responsibilities</a></li>
+  <li><a href="#decision-making" id="toc-decision-making" class="nav-link" data-scroll-target="#decision-making">Decision Making</a></li>
+  <li><a href="#data-research-integrity" id="toc-data-research-integrity" class="nav-link" data-scroll-target="#data-research-integrity">Data &amp; Research Integrity</a>
+  <ul class="collapse">
+  <li><a href="#reproducibility" id="toc-reproducibility" class="nav-link" data-scroll-target="#reproducibility">Reproducibility</a></li>
+  <li><a href="#fair-data-principles" id="toc-fair-data-principles" class="nav-link" data-scroll-target="#fair-data-principles">FAIR Data Principles</a></li>
+  <li><a href="#data-privacy" id="toc-data-privacy" class="nav-link" data-scroll-target="#data-privacy">Data Privacy</a></li>
+  <li><a href="#attribution" id="toc-attribution" class="nav-link" data-scroll-target="#attribution">Attribution</a></li>
+  <li><a href="#misconduct" id="toc-misconduct" class="nav-link" data-scroll-target="#misconduct">Misconduct</a></li>
+  </ul></li>
+  <li><a href="#intellectual-property-licensing" id="toc-intellectual-property-licensing" class="nav-link" data-scroll-target="#intellectual-property-licensing">Intellectual Property &amp; Licensing</a>
+  <ul class="collapse">
+  <li><a href="#open-source-tools" id="toc-open-source-tools" class="nav-link" data-scroll-target="#open-source-tools">Open-Source Tools</a></li>
+  <li><a href="#research-outputs" id="toc-research-outputs" class="nav-link" data-scroll-target="#research-outputs">Research Outputs</a></li>
+  <li><a href="#partner-funded-work" id="toc-partner-funded-work" class="nav-link" data-scroll-target="#partner-funded-work">Partner-Funded Work</a></li>
+  <li><a href="#attribution-1" id="toc-attribution-1" class="nav-link" data-scroll-target="#attribution-1">Attribution</a></li>
+  </ul></li>
+  <li><a href="#partnerships-conflicts-of-interest" id="toc-partnerships-conflicts-of-interest" class="nav-link" data-scroll-target="#partnerships-conflicts-of-interest">Partnerships &amp; Conflicts of Interest</a>
+  <ul class="collapse">
+  <li><a href="#establishing-partnerships" id="toc-establishing-partnerships" class="nav-link" data-scroll-target="#establishing-partnerships">Establishing Partnerships</a></li>
+  <li><a href="#conflicts-of-interest" id="toc-conflicts-of-interest" class="nav-link" data-scroll-target="#conflicts-of-interest">Conflicts of Interest</a></li>
+  <li><a href="#independence" id="toc-independence" class="nav-link" data-scroll-target="#independence">Independence</a></li>
+  </ul></li>
+  <li><a href="#funding-financial-accountability" id="toc-funding-financial-accountability" class="nav-link" data-scroll-target="#funding-financial-accountability">Funding &amp; Financial Accountability</a>
+  <ul class="collapse">
+  <li><a href="#funding-sources" id="toc-funding-sources" class="nav-link" data-scroll-target="#funding-sources">Funding Sources</a></li>
+  <li><a href="#financial-management" id="toc-financial-management" class="nav-link" data-scroll-target="#financial-management">Financial Management</a></li>
+  <li><a href="#reporting" id="toc-reporting" class="nav-link" data-scroll-target="#reporting">Reporting</a></li>
+  </ul></li>
+  <li><a href="#review-amendments" id="toc-review-amendments" class="nav-link" data-scroll-target="#review-amendments">Review &amp; Amendments</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Projects</h1>
+<h1 class="title">Impact Lab Governance Document</h1>
+<p class="subtitle lead">Monash Open Data Analytics</p>
 </div>
 
 
@@ -242,6 +213,12 @@ window.Quarto = {
 <div class="quarto-title-meta">
 
     
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">19 May 2026</p>
+    </div>
+  </div>
   
     
   </div>
@@ -251,103 +228,148 @@ window.Quarto = {
 </header>
 
 
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Version 1.0. This document is reviewed annually. For questions, contact the Lab Director.</p>
+</div>
+</div>
+<section id="purpose-scope" class="level2">
+<h2 class="anchored" data-anchor-id="purpose-scope">Purpose &amp; Scope</h2>
+<p>This document sets out the governance framework for the Impact Lab, an open data analytics research group operating within Monash University. It applies to all staff, researchers, students, partners, and contributors engaged in the lab’s activities.</p>
+<p>Where this document is silent, Monash University policies and procedures apply.</p>
+<hr>
+</section>
+<section id="structure-leadership" class="level2">
+<h2 class="anchored" data-anchor-id="structure-leadership">Structure &amp; Leadership</h2>
+<section id="lab-director" class="level3">
+<h3 class="anchored" data-anchor-id="lab-director">Lab Director</h3>
+<p>The Lab Director holds overall responsibility for the strategic direction, operations, and culture of the Impact Lab. The Director is appointed by the relevant Faculty Dean in consultation with senior lab members.</p>
+</section>
+<section id="leadership-team" class="level3">
+<h3 class="anchored" data-anchor-id="leadership-team">Leadership Team</h3>
+<p>The Leadership Team comprises the Lab Director and senior researchers. It meets regularly to oversee research priorities, partnerships, and operational matters.</p>
+</section>
+<section id="advisory-board" class="level3">
+<h3 class="anchored" data-anchor-id="advisory-board">Advisory Board</h3>
+<p>An Advisory Board of external experts — drawn from government, industry, and the research community — provides strategic guidance and independent oversight. The Board meets at least twice per year.</p>
+</section>
+<section id="succession" class="level3">
+<h3 class="anchored" data-anchor-id="succession">Succession</h3>
+<p>Leadership transitions are managed in consultation with the Faculty. Interim arrangements are documented and communicated to all lab members.</p>
+<hr>
+</section>
+</section>
+<section id="roles-responsibilities" class="level2">
+<h2 class="anchored" data-anchor-id="roles-responsibilities">Roles &amp; Responsibilities</h2>
+<p><strong>Staff &amp; Researchers</strong> Conduct research with integrity, contribute to a respectful and collaborative culture, adhere to open and reproducible practices, and represent the lab professionally in all external engagements.</p>
+<p><strong>Students</strong> Engage honestly with their research, seek guidance when needed, and uphold the lab’s standards for transparency and reproducibility.</p>
+<p><strong>External Partners &amp; Collaborators</strong> Respect the lab’s commitment to open data and transparent methods, disclose any interests that may conflict with research integrity, and honour agreed data sharing and attribution arrangements.</p>
+<p><strong>Open-Source Contributors</strong> Follow the lab’s contribution guidelines, attribute prior work appropriately, and engage constructively with the community.</p>
+<hr>
+</section>
+<section id="decision-making" class="level2">
+<h2 class="anchored" data-anchor-id="decision-making">Decision Making</h2>
+<p><strong>Day-to-day decisions</strong> are made by the Lab Director or delegated to senior researchers as appropriate.</p>
+<p><strong>Significant decisions</strong> — including major funding commitments, new institutional partnerships, changes to research priorities, and public tool releases — require Leadership Team consensus.</p>
+<p><strong>Strategic decisions</strong> — including changes to the lab’s mission, governance structure, or relationship with Monash University — are referred to the Advisory Board for input before being finalised.</p>
+<p>Decisions are documented and communicated to relevant lab members in a timely manner.</p>
+<hr>
+</section>
+<section id="data-research-integrity" class="level2">
+<h2 class="anchored" data-anchor-id="data-research-integrity">Data &amp; Research Integrity</h2>
+<p>The Impact Lab is committed to the highest standards of research integrity and open science. All research activities are conducted in accordance with the <a href="https://www.nhmrc.gov.au/about-us/publications/australian-code-responsible-conduct-research-2018">Australian Code for the Responsible Conduct of Research</a>.</p>
+<section id="reproducibility" class="level3">
+<h3 class="anchored" data-anchor-id="reproducibility">Reproducibility</h3>
+<p>All analytical workflows are documented and, where possible, publicly available. Results must be reproducible from the methods and data described.</p>
+</section>
+<section id="fair-data-principles" class="level3">
+<h3 class="anchored" data-anchor-id="fair-data-principles">FAIR Data Principles</h3>
+<p>Data produced or used by the lab should be Findable, Accessible, Interoperable, and Reusable wherever legally and ethically permissible.</p>
+</section>
+<section id="data-privacy" class="level3">
+<h3 class="anchored" data-anchor-id="data-privacy">Data Privacy</h3>
+<p>Personal and sensitive data is handled in accordance with the Privacy Act 1988 (Cth) and Monash University’s data governance policies. Data minimisation and anonymisation are applied wherever possible.</p>
+</section>
+<section id="attribution" class="level3">
+<h3 class="anchored" data-anchor-id="attribution">Attribution</h3>
+<p>All data sources, tools, and prior work are attributed appropriately in publications, reports, and releases.</p>
+</section>
+<section id="misconduct" class="level3">
+<h3 class="anchored" data-anchor-id="misconduct">Misconduct</h3>
+<p>Concerns about research misconduct are raised with the Lab Director or, where the Director is implicated, directly with the Faculty. Monash University’s research misconduct procedures apply.</p>
+<hr>
+</section>
+</section>
+<section id="intellectual-property-licensing" class="level2">
+<h2 class="anchored" data-anchor-id="intellectual-property-licensing">Intellectual Property &amp; Licensing</h2>
+<section id="open-source-tools" class="level3">
+<h3 class="anchored" data-anchor-id="open-source-tools">Open-Source Tools</h3>
+<p>Software and analytical tools developed by the lab are released under an open-source licence — by default the <a href="https://opensource.org/licenses/MIT">MIT Licence</a> or <a href="https://www.apache.org/licenses/LICENSE-2.0">Apache 2.0</a>, unless a project-specific licence is agreed by the Leadership Team.</p>
+</section>
+<section id="research-outputs" class="level3">
+<h3 class="anchored" data-anchor-id="research-outputs">Research Outputs</h3>
+<p>Publications and reports are made openly available wherever possible, consistent with journal or funder requirements. Pre-prints are encouraged.</p>
+</section>
+<section id="partner-funded-work" class="level3">
+<h3 class="anchored" data-anchor-id="partner-funded-work">Partner-Funded Work</h3>
+<p>Where external funding influences intellectual property arrangements, these are agreed in writing before work commences and reviewed by the Lab Director and Monash’s research contracts team.</p>
+</section>
+<section id="attribution-1" class="level3">
+<h3 class="anchored" data-anchor-id="attribution-1">Attribution</h3>
+<p>Contributors to tools and research outputs are acknowledged in accordance with recognised authorship and contribution standards, including the <a href="https://credit.niso.org/">CRediT taxonomy</a> where applicable.</p>
+<hr>
+</section>
+</section>
+<section id="partnerships-conflicts-of-interest" class="level2">
+<h2 class="anchored" data-anchor-id="partnerships-conflicts-of-interest">Partnerships &amp; Conflicts of Interest</h2>
+<section id="establishing-partnerships" class="level3">
+<h3 class="anchored" data-anchor-id="establishing-partnerships">Establishing Partnerships</h3>
+<p>New partnerships are assessed by the Leadership Team for alignment with the lab’s mission, independence, and values. Formal partnerships are documented with a written agreement outlining scope, data arrangements, IP, and attribution.</p>
+</section>
+<section id="conflicts-of-interest" class="level3">
+<h3 class="anchored" data-anchor-id="conflicts-of-interest">Conflicts of Interest</h3>
+<p>All lab members and advisors must disclose any personal, financial, or institutional interests that could — or could be perceived to — influence their work. Disclosures are recorded and reviewed by the Lab Director. Where a conflict is material, the affected individual steps back from relevant decisions.</p>
+</section>
+<section id="independence" class="level3">
+<h3 class="anchored" data-anchor-id="independence">Independence</h3>
+<p>The lab’s research findings and tool development are not subject to approval or veto by external partners. This principle is reflected in all partnership agreements.</p>
+<hr>
+</section>
+</section>
+<section id="funding-financial-accountability" class="level2">
+<h2 class="anchored" data-anchor-id="funding-financial-accountability">Funding &amp; Financial Accountability</h2>
+<section id="funding-sources" class="level3">
+<h3 class="anchored" data-anchor-id="funding-sources">Funding Sources</h3>
+<p>The lab accepts funding from government, philanthropic, and industry sources consistent with its mission and independence. Funding sources are disclosed publicly where not subject to confidentiality obligations.</p>
+</section>
+<section id="financial-management" class="level3">
+<h3 class="anchored" data-anchor-id="financial-management">Financial Management</h3>
+<p>All expenditure is managed in accordance with Monash University’s financial policies and delegations. The Lab Director is responsible for budget oversight.</p>
+</section>
+<section id="reporting" class="level3">
+<h3 class="anchored" data-anchor-id="reporting">Reporting</h3>
+<p>Financial reports are reviewed by the Leadership Team and shared with the Advisory Board at least annually.</p>
+<hr>
+</section>
+</section>
+<section id="review-amendments" class="level2">
+<h2 class="anchored" data-anchor-id="review-amendments">Review &amp; Amendments</h2>
+<p>This document is reviewed annually by the Leadership Team, with input from the Advisory Board.</p>
+<p>Proposed amendments are circulated to all lab members for comment before being adopted. Significant changes to governance structure require Advisory Board endorsement.</p>
+<p>The current version of this document is maintained on the lab’s website and internal repository.</p>
 
 
+</section>
 
-
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="ZGF0YSUyQ3N0YXRpc3RpY3MlMkN2aXN1YWxpc2F0aW9uJTJDciUyQ29wZW4lMjBzb3VyY2UlMkNyZXByb2R1Y2liaWxpdHk=" data-listing-date-sort="1779026400000" data-listing-file-modified-sort="1779065386081" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="33">
-<div class="thumbnail"><a href="./projects/workshops.html" class="no-external">
-
-<img loading="lazy" src="https://workshop.nectric.com.au/fable-2025/images/fable.svg" class="thumbnail-image">
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./projects/workshops.html" class="no-external">Workshops</a>
-</h3>
-<div class="delink listing-description"><a href="./projects/workshops.html" class="no-external">
-These are examples of workshops that we are able to provide:
-</a></div>
-</div>
-<div class="metadata">
-<a href="./projects/workshops.html" class="no-external">
-<div class="listing-date">
-18 May 2026
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-categories="ZWR1Y2F0aW9uJTJDciUyQ29wZW4lMjBzb3VyY2UlMkNyZXByb2R1Y2liaWxpdHk=" data-listing-date-sort="1775743200000" data-listing-file-modified-sort="1775777911476" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="20">
-<div class="thumbnail"><a href="./projects/moodlequiz.html" class="no-external">
-
-<img loading="lazy" src="https://numbats.github.io/moodlequiz/reference/figures/quiz-essay.png" class="thumbnail-image">
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./projects/moodlequiz.html" class="no-external">Automate online tests</a>
-</h3>
-<div class="delink listing-description"><a href="./projects/moodlequiz.html" class="no-external">
-The moodlequiz software enables creating quiz questions in R Markdown that can generate a question data bank in Moodle.
-</a></div>
-</div>
-<div class="metadata">
-<a href="./projects/moodlequiz.html" class="no-external">
-<div class="listing-date">
-10 April 2026
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="2" data-categories="ZWR1Y2F0aW9uJTJDciUyQ29wZW4lMjBzb3VyY2UlMkNyZXByb2R1Y2liaWxpdHk=" data-listing-date-sort="1775743200000" data-listing-file-modified-sort="1775778011534" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="26">
-<div class="thumbnail"><a href="./projects/quarto-templates.html" class="no-external">
-
-<img loading="lazy" src="https://github.com/quarto-monash/exam/raw/main/examples/template.png" class="thumbnail-image">
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./projects/quarto-templates.html" class="no-external">Quarto templates</a>
-</h3>
-<div class="delink listing-description"><a href="./projects/quarto-templates.html" class="no-external">
-This set of templates create a variety of Monash documents from quarto to support reproducible reporting. It includes memos, letters, exams, working papers, thesis and…
-</a></div>
-</div>
-<div class="metadata">
-<a href="./projects/quarto-templates.html" class="no-external">
-<div class="listing-date">
-10 April 2026
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="3" data-categories="ZGF0YSUyQ3N0YXRpc3RpY3MlMkN2aXN1YWxpc2F0aW9uJTJDciUyQ29wZW4lMjBzb3VyY2U=" data-listing-date-sort="1775656800000" data-listing-file-modified-sort="1777263874583" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="864">
-<div class="thumbnail"><a href="./projects/software.html" class="no-external">
-
-<img loading="lazy" src="./projects/software_files/figure-html/top-packages-1.png" class="thumbnail-image">
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./projects/software.html" class="no-external">Software</a>
-</h3>
-<div class="delink listing-description"><a href="./projects/software.html" class="no-external">
-Members of MonOALab have contributed 119 packages to CRAN in the last 10 years, with 33 already updated in 2026.
-</a></div>
-</div>
-<div class="metadata">
-<a href="./projects/software.html" class="no-external">
-<div class="listing-date">
-9 April 2026
-</div>
-</a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">No matching items</div>
-</div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";

@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Projects – Monash Open Analytics Lab</title>
+<title>Code of Conduct – Monash Open Analytics Lab</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -33,8 +33,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
@@ -72,79 +70,7 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script>window.backupDefine = window.define; window.define = undefined;</script><script src="https://cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.js"></script>
-  <script>document.addEventListener("DOMContentLoaded", function () {
- var mathElements = document.getElementsByClassName("math");
- var macros = [];
- for (var i = 0; i < mathElements.length; i++) {
-  var texText = mathElements[i].firstChild;
-  if (mathElements[i].tagName == "SPAN") {
-   katex.render(texText.data, mathElements[i], {
-    displayMode: mathElements[i].classList.contains('display'),
-    throwOnError: false,
-    macros: macros,
-    fleqn: false
-   });
-}}});
-  </script>
-  <script>window.define = window.backupDefine; window.backupDefine = undefined;</script><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.css">
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 <link rel="stylesheet" href="styles.scss">
 </head>
@@ -175,7 +101,7 @@ window.Quarto = {
 <span class="menu-text">People</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./projects.html" aria-current="page"> 
+    <a class="nav-link" href="./projects.html"> 
 <span class="menu-text">Projects</span></a>
   </li>  
   <li class="nav-item">
@@ -189,7 +115,7 @@ window.Quarto = {
 <span class="menu-text">Governance</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./coc.html"> 
+    <a class="nav-link active" href="./coc.html" aria-current="page"> 
 <span class="menu-text">CoC</span></a>
   </li>  
   <li class="nav-item">
@@ -207,7 +133,7 @@ window.Quarto = {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Projects</li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Code of Conduct</li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -234,7 +160,7 @@ window.Quarto = {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Projects</h1>
+<h1 class="title">Code of Conduct</h1>
 </div>
 
 
@@ -251,103 +177,19 @@ window.Quarto = {
 </header>
 
 
+<p>The Impact Lab is a space for open, rigorous, and respectful collaboration — whether you’re a researcher, partner, training participant, or contributor to our tools. We expect everyone involved with our work to:</p>
+<ul>
+<li><strong>Be respectful.</strong> Treat everyone with courtesy and professionalism, regardless of background, experience level, or perspective.</li>
+<li><strong>Be honest.</strong> Uphold the integrity of your work — no fabrication, misrepresentation, or cutting corners on reproducibility.</li>
+<li><strong>Be open.</strong> Engage with different ideas and ways of working. Our strength comes from diverse perspectives and genuine knowledge-sharing.</li>
+<li><strong>Be accountable.</strong> Take responsibility for your contributions, flag problems when you see them, and be willing to learn from mistakes. Be inclusive. We do not tolerate harassment, discrimination, or exclusionary behaviour in any form — in person, online, or in our shared spaces.</li>
+</ul>
+<p>These principles apply across all our activities: research, training, partnerships, and open-source collaboration.</p>
+<p>If you experience or witness behaviour that falls short of these standards, please raise it with any member of the lab leadership team.</p>
 
 
 
-
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="ZGF0YSUyQ3N0YXRpc3RpY3MlMkN2aXN1YWxpc2F0aW9uJTJDciUyQ29wZW4lMjBzb3VyY2UlMkNyZXByb2R1Y2liaWxpdHk=" data-listing-date-sort="1779026400000" data-listing-file-modified-sort="1779065386081" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="33">
-<div class="thumbnail"><a href="./projects/workshops.html" class="no-external">
-
-<img loading="lazy" src="https://workshop.nectric.com.au/fable-2025/images/fable.svg" class="thumbnail-image">
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./projects/workshops.html" class="no-external">Workshops</a>
-</h3>
-<div class="delink listing-description"><a href="./projects/workshops.html" class="no-external">
-These are examples of workshops that we are able to provide:
-</a></div>
-</div>
-<div class="metadata">
-<a href="./projects/workshops.html" class="no-external">
-<div class="listing-date">
-18 May 2026
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-categories="ZWR1Y2F0aW9uJTJDciUyQ29wZW4lMjBzb3VyY2UlMkNyZXByb2R1Y2liaWxpdHk=" data-listing-date-sort="1775743200000" data-listing-file-modified-sort="1775777911476" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="20">
-<div class="thumbnail"><a href="./projects/moodlequiz.html" class="no-external">
-
-<img loading="lazy" src="https://numbats.github.io/moodlequiz/reference/figures/quiz-essay.png" class="thumbnail-image">
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./projects/moodlequiz.html" class="no-external">Automate online tests</a>
-</h3>
-<div class="delink listing-description"><a href="./projects/moodlequiz.html" class="no-external">
-The moodlequiz software enables creating quiz questions in R Markdown that can generate a question data bank in Moodle.
-</a></div>
-</div>
-<div class="metadata">
-<a href="./projects/moodlequiz.html" class="no-external">
-<div class="listing-date">
-10 April 2026
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="2" data-categories="ZWR1Y2F0aW9uJTJDciUyQ29wZW4lMjBzb3VyY2UlMkNyZXByb2R1Y2liaWxpdHk=" data-listing-date-sort="1775743200000" data-listing-file-modified-sort="1775778011534" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="26">
-<div class="thumbnail"><a href="./projects/quarto-templates.html" class="no-external">
-
-<img loading="lazy" src="https://github.com/quarto-monash/exam/raw/main/examples/template.png" class="thumbnail-image">
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./projects/quarto-templates.html" class="no-external">Quarto templates</a>
-</h3>
-<div class="delink listing-description"><a href="./projects/quarto-templates.html" class="no-external">
-This set of templates create a variety of Monash documents from quarto to support reproducible reporting. It includes memos, letters, exams, working papers, thesis and…
-</a></div>
-</div>
-<div class="metadata">
-<a href="./projects/quarto-templates.html" class="no-external">
-<div class="listing-date">
-10 April 2026
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="3" data-categories="ZGF0YSUyQ3N0YXRpc3RpY3MlMkN2aXN1YWxpc2F0aW9uJTJDciUyQ29wZW4lMjBzb3VyY2U=" data-listing-date-sort="1775656800000" data-listing-file-modified-sort="1777263874583" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="864">
-<div class="thumbnail"><a href="./projects/software.html" class="no-external">
-
-<img loading="lazy" src="./projects/software_files/figure-html/top-packages-1.png" class="thumbnail-image">
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./projects/software.html" class="no-external">Software</a>
-</h3>
-<div class="delink listing-description"><a href="./projects/software.html" class="no-external">
-Members of MonOALab have contributed 119 packages to CRAN in the last 10 years, with 33 already updated in 2026.
-</a></div>
-</div>
-<div class="metadata">
-<a href="./projects/software.html" class="no-external">
-<div class="listing-date">
-9 April 2026
-</div>
-</a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">No matching items</div>
-</div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";

@@ -39,35 +39,119 @@
     "href": "index.html",
     "title": "Monash Open Analytics Lab",
     "section": "",
-    "text": "We develop open-source analytical tools, promote transparent and reproducible practices, deliver training that builds capability, and forge global partnerships that help government, industry, and communities make better decisions."
+    "text": "We build open-source tools grounded in the latest statistical methods that put the power of data — and the intelligence of AI — in the hands of those who need it most. By championing transparent, reproducible practices and delivering hands-on training, we grow the capability of governments, industries, and communities worldwide to make smarter, evidence-based decisions. Through global partnerships, we make sure those tools reach the problems they’re built to solve."
   },
   {
     "objectID": "index.html#guiding-better-decisions---what-we-do",
     "href": "index.html#guiding-better-decisions---what-we-do",
     "title": "Monash Open Analytics Lab",
     "section": "Guiding Better decisions - What we do",
-    "text": "Guiding Better decisions - What we do\nWe use data to support evidence-based decisions on the big challenges - climate, health, and thriving societies."
+    "text": "Guiding Better decisions - What we do\nRigorous data analytics, applied to the challenges that matter — climate, health, and human wellbeing — translating complex evidence into clear insight for those who shape policy and drive change."
   },
   {
     "objectID": "index.html#open-tools---what-we-build",
     "href": "index.html#open-tools---what-we-build",
     "title": "Monash Open Analytics Lab",
     "section": "Open tools - What we build",
-    "text": "Open tools - What we build\nOpen-source software, workflows and data resources, so that others can access, reuse, and improve."
+    "text": "Open tools - What we build\nOpen-source software, workflows, and data resources that anyone can access, adapt, and build upon — because good tools should be shared, not siloed."
   },
   {
     "objectID": "index.html#transparent-methods---how-we-work",
     "href": "index.html#transparent-methods---how-we-work",
     "title": "Monash Open Analytics Lab",
     "section": "Transparent methods - How we work",
-    "text": "Transparent methods - How we work\nOpen source software and workflows, reproducible and auditable analytics that others can access, reuse and improve, leading to trustworthy, ethical, and accountable science."
+    "text": "Transparent methods - How we work\nEvery assumption visible, every result verifiable — reproducible and auditable analytics that produce science which is trustworthy, ethical, and built to last. We think that’s just good practice."
   },
   {
     "objectID": "index.html#global-impact---where-we-make-a-difference",
     "href": "index.html#global-impact---where-we-make-a-difference",
     "title": "Monash Open Analytics Lab",
     "section": "Global impact - Where we make a difference",
-    "text": "Global impact - Where we make a difference\nAcross: Monash, Australia, the Pacific, and Southeast Asia."
+    "text": "Global impact - Where we make a difference\nFrom locally in the Monash University community, to Australia, the Pacific and Southeast Asia, working where the need is greatest — building local capability and partnerships that outlast any single project, one relationship at a time."
+  },
+  {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "How to Reach Us",
+    "section": "",
+    "text": "We are located at Monash University, Clayton Campus."
+  },
+  {
+    "objectID": "coc.html",
+    "href": "coc.html",
+    "title": "Code of Conduct",
+    "section": "",
+    "text": "The Impact Lab is a space for open, rigorous, and respectful collaboration — whether you’re a researcher, partner, training participant, or contributor to our tools. We expect everyone involved with our work to:\n\nBe respectful. Treat everyone with courtesy and professionalism, regardless of background, experience level, or perspective.\nBe honest. Uphold the integrity of your work — no fabrication, misrepresentation, or cutting corners on reproducibility.\nBe open. Engage with different ideas and ways of working. Our strength comes from diverse perspectives and genuine knowledge-sharing.\nBe accountable. Take responsibility for your contributions, flag problems when you see them, and be willing to learn from mistakes. Be inclusive. We do not tolerate harassment, discrimination, or exclusionary behaviour in any form — in person, online, or in our shared spaces.\n\nThese principles apply across all our activities: research, training, partnerships, and open-source collaboration.\nIf you experience or witness behaviour that falls short of these standards, please raise it with any member of the lab leadership team."
+  },
+  {
+    "objectID": "governance.html",
+    "href": "governance.html",
+    "title": "Impact Lab Governance Document",
+    "section": "",
+    "text": "Note\n\n\n\nVersion 1.0. This document is reviewed annually. For questions, contact the Lab Director."
+  },
+  {
+    "objectID": "governance.html#purpose-scope",
+    "href": "governance.html#purpose-scope",
+    "title": "Impact Lab Governance Document",
+    "section": "Purpose & Scope",
+    "text": "Purpose & Scope\nThis document sets out the governance framework for the Impact Lab, an open data analytics research group operating within Monash University. It applies to all staff, researchers, students, partners, and contributors engaged in the lab’s activities.\nWhere this document is silent, Monash University policies and procedures apply."
+  },
+  {
+    "objectID": "governance.html#structure-leadership",
+    "href": "governance.html#structure-leadership",
+    "title": "Impact Lab Governance Document",
+    "section": "Structure & Leadership",
+    "text": "Structure & Leadership\n\nLab Director\nThe Lab Director holds overall responsibility for the strategic direction, operations, and culture of the Impact Lab. The Director is appointed by the relevant Faculty Dean in consultation with senior lab members.\n\n\nLeadership Team\nThe Leadership Team comprises the Lab Director and senior researchers. It meets regularly to oversee research priorities, partnerships, and operational matters.\n\n\nAdvisory Board\nAn Advisory Board of external experts — drawn from government, industry, and the research community — provides strategic guidance and independent oversight. The Board meets at least twice per year.\n\n\nSuccession\nLeadership transitions are managed in consultation with the Faculty. Interim arrangements are documented and communicated to all lab members."
+  },
+  {
+    "objectID": "governance.html#roles-responsibilities",
+    "href": "governance.html#roles-responsibilities",
+    "title": "Impact Lab Governance Document",
+    "section": "Roles & Responsibilities",
+    "text": "Roles & Responsibilities\nStaff & Researchers Conduct research with integrity, contribute to a respectful and collaborative culture, adhere to open and reproducible practices, and represent the lab professionally in all external engagements.\nStudents Engage honestly with their research, seek guidance when needed, and uphold the lab’s standards for transparency and reproducibility.\nExternal Partners & Collaborators Respect the lab’s commitment to open data and transparent methods, disclose any interests that may conflict with research integrity, and honour agreed data sharing and attribution arrangements.\nOpen-Source Contributors Follow the lab’s contribution guidelines, attribute prior work appropriately, and engage constructively with the community."
+  },
+  {
+    "objectID": "governance.html#decision-making",
+    "href": "governance.html#decision-making",
+    "title": "Impact Lab Governance Document",
+    "section": "Decision Making",
+    "text": "Decision Making\nDay-to-day decisions are made by the Lab Director or delegated to senior researchers as appropriate.\nSignificant decisions — including major funding commitments, new institutional partnerships, changes to research priorities, and public tool releases — require Leadership Team consensus.\nStrategic decisions — including changes to the lab’s mission, governance structure, or relationship with Monash University — are referred to the Advisory Board for input before being finalised.\nDecisions are documented and communicated to relevant lab members in a timely manner."
+  },
+  {
+    "objectID": "governance.html#data-research-integrity",
+    "href": "governance.html#data-research-integrity",
+    "title": "Impact Lab Governance Document",
+    "section": "Data & Research Integrity",
+    "text": "Data & Research Integrity\nThe Impact Lab is committed to the highest standards of research integrity and open science. All research activities are conducted in accordance with the Australian Code for the Responsible Conduct of Research.\n\nReproducibility\nAll analytical workflows are documented and, where possible, publicly available. Results must be reproducible from the methods and data described.\n\n\nFAIR Data Principles\nData produced or used by the lab should be Findable, Accessible, Interoperable, and Reusable wherever legally and ethically permissible.\n\n\nData Privacy\nPersonal and sensitive data is handled in accordance with the Privacy Act 1988 (Cth) and Monash University’s data governance policies. Data minimisation and anonymisation are applied wherever possible.\n\n\nAttribution\nAll data sources, tools, and prior work are attributed appropriately in publications, reports, and releases.\n\n\nMisconduct\nConcerns about research misconduct are raised with the Lab Director or, where the Director is implicated, directly with the Faculty. Monash University’s research misconduct procedures apply."
+  },
+  {
+    "objectID": "governance.html#intellectual-property-licensing",
+    "href": "governance.html#intellectual-property-licensing",
+    "title": "Impact Lab Governance Document",
+    "section": "Intellectual Property & Licensing",
+    "text": "Intellectual Property & Licensing\n\nOpen-Source Tools\nSoftware and analytical tools developed by the lab are released under an open-source licence — by default the MIT Licence or Apache 2.0, unless a project-specific licence is agreed by the Leadership Team.\n\n\nResearch Outputs\nPublications and reports are made openly available wherever possible, consistent with journal or funder requirements. Pre-prints are encouraged.\n\n\nPartner-Funded Work\nWhere external funding influences intellectual property arrangements, these are agreed in writing before work commences and reviewed by the Lab Director and Monash’s research contracts team.\n\n\nAttribution\nContributors to tools and research outputs are acknowledged in accordance with recognised authorship and contribution standards, including the CRediT taxonomy where applicable."
+  },
+  {
+    "objectID": "governance.html#partnerships-conflicts-of-interest",
+    "href": "governance.html#partnerships-conflicts-of-interest",
+    "title": "Impact Lab Governance Document",
+    "section": "Partnerships & Conflicts of Interest",
+    "text": "Partnerships & Conflicts of Interest\n\nEstablishing Partnerships\nNew partnerships are assessed by the Leadership Team for alignment with the lab’s mission, independence, and values. Formal partnerships are documented with a written agreement outlining scope, data arrangements, IP, and attribution.\n\n\nConflicts of Interest\nAll lab members and advisors must disclose any personal, financial, or institutional interests that could — or could be perceived to — influence their work. Disclosures are recorded and reviewed by the Lab Director. Where a conflict is material, the affected individual steps back from relevant decisions.\n\n\nIndependence\nThe lab’s research findings and tool development are not subject to approval or veto by external partners. This principle is reflected in all partnership agreements."
+  },
+  {
+    "objectID": "governance.html#funding-financial-accountability",
+    "href": "governance.html#funding-financial-accountability",
+    "title": "Impact Lab Governance Document",
+    "section": "Funding & Financial Accountability",
+    "text": "Funding & Financial Accountability\n\nFunding Sources\nThe lab accepts funding from government, philanthropic, and industry sources consistent with its mission and independence. Funding sources are disclosed publicly where not subject to confidentiality obligations.\n\n\nFinancial Management\nAll expenditure is managed in accordance with Monash University’s financial policies and delegations. The Lab Director is responsible for budget oversight.\n\n\nReporting\nFinancial reports are reviewed by the Leadership Team and shared with the Advisory Board at least annually."
+  },
+  {
+    "objectID": "governance.html#review-amendments",
+    "href": "governance.html#review-amendments",
+    "title": "Impact Lab Governance Document",
+    "section": "Review & Amendments",
+    "text": "Review & Amendments\nThis document is reviewed annually by the Leadership Team, with input from the Advisory Board.\nProposed amendments are circulated to all lab members for comment before being adopted. Significant changes to governance structure require Advisory Board endorsement.\nThe current version of this document is maintained on the lab’s website and internal repository."
   },
   {
     "objectID": "people.html",
