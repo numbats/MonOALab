@@ -4,6 +4,7 @@ $secondary: #006DAE;
 $navbar-bg: #006DAE;
 $navbar-fg: #ffffff;  /* text/icon colour on the navbar */
 
+/*-- scss:rules --*/
 .hero img {
   display: block;
   margin: 0 auto;
@@ -15,7 +16,7 @@ body {
 }
 
 .navbar {
-  background-color: #006DAE;
+  background-color: #006DAE !important;
 }
 
 .navbar a {
