@@ -84,6 +84,55 @@
     "text": "Students\n\n\n\nJuly 2025 network map of the EBS PhD students and their supervisors\n\n\nA few highlights of student research are:\nKrisanat Anukarnsakulchularp\nSpatiotemporal network visualisation and modelling with applications to health data.\nFloyd Everest\nPreferential data, election audits, applied statistics.\nJayani Lakshika\nResearching methodology for nonlinear dimension reduction of high-dimensional data.\nCash Looi\nLooking at high-dimensional inference, and flexible multinomial choice modeling.\nHarriet Mason\nVisual statistics, statistics philosophy, and computational statistics.\nMitch O’Hara-Wild\nData scientist, time series and forecasting, software development.\nTina Rashid Jafari\nDeveloping methods to detect non-normal associations in high-dimensional data.\nBets Ruscoe\nStudying AI Ethics and deep learning models\nClick here for a more extensive list of our PhD students and their research interests"
   },
   {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Monash Open Analytics Lab",
+    "section": "",
+    "text": "We build open-source tools grounded in the latest statistical methods that put the power of data — and the intelligence of AI — in the hands of those who need it most. By championing transparent, reproducible practices and delivering hands-on training, we grow the capability of governments, industries, and communities worldwide to make smarter, evidence-based decisions. Through global partnerships, we make sure those tools reach the problems they’re built to solve."
+  },
+  {
+    "objectID": "index.html#guiding-better-decisions---what-we-do",
+    "href": "index.html#guiding-better-decisions---what-we-do",
+    "title": "Monash Open Analytics Lab",
+    "section": "Guiding Better decisions - What we do",
+    "text": "Guiding Better decisions - What we do\nRigorous data analytics, applied to the challenges that matter — climate, health, and human wellbeing — translating complex evidence into clear insight for those who shape policy and drive change."
+  },
+  {
+    "objectID": "index.html#open-tools---what-we-build",
+    "href": "index.html#open-tools---what-we-build",
+    "title": "Monash Open Analytics Lab",
+    "section": "Open tools - What we build",
+    "text": "Open tools - What we build\nOpen-source software, workflows, and data resources that anyone can access, adapt, and build upon — because good tools should be shared, not siloed."
+  },
+  {
+    "objectID": "index.html#transparent-methods---how-we-work",
+    "href": "index.html#transparent-methods---how-we-work",
+    "title": "Monash Open Analytics Lab",
+    "section": "Transparent methods - How we work",
+    "text": "Transparent methods - How we work\nEvery assumption visible, every result verifiable — reproducible and auditable analytics that produce science which is trustworthy, ethical, and built to last. We think that’s just good practice."
+  },
+  {
+    "objectID": "index.html#global-impact---where-we-make-a-difference",
+    "href": "index.html#global-impact---where-we-make-a-difference",
+    "title": "Monash Open Analytics Lab",
+    "section": "Global impact - Where we make a difference",
+    "text": "Global impact - Where we make a difference\nFrom locally in the Monash University community, to Australia, the Pacific and Southeast Asia, working where the need is greatest — building local capability and partnerships that outlast any single project, one relationship at a time."
+  },
+  {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "How to Reach Us",
+    "section": "",
+    "text": "We are located at Monash University, Clayton Campus."
+  },
+  {
+    "objectID": "coc.html",
+    "href": "coc.html",
+    "title": "Code of Conduct",
+    "section": "",
+    "text": "The Impact Lab is a space for open, rigorous, and respectful collaboration — whether you’re a researcher, partner, training participant, or contributor to our tools. We expect everyone involved with our work to:\n\nBe respectful. Treat everyone with courtesy and professionalism, regardless of background, experience level, or perspective.\nBe honest. Uphold the integrity of your work — no fabrication, misrepresentation, or cutting corners on reproducibility.\nBe open. Engage with different ideas and ways of working. Our strength comes from diverse perspectives and genuine knowledge-sharing.\nBe accountable. Take responsibility for your contributions, flag problems when you see them, and be willing to learn from mistakes. Be inclusive. We do not tolerate harassment, discrimination, or exclusionary behaviour in any form — in person, online, or in our shared spaces.\n\nThese principles apply across all our activities: research, training, partnerships, and open-source collaboration.\nIf you experience or witness behaviour that falls short of these standards, please raise it with any member of the lab leadership team."
+  },
+  {
     "objectID": "governance.html",
     "href": "governance.html",
     "title": "Impact Lab Governance Document",
@@ -154,53 +203,11 @@
     "text": "Review & Amendments\nThis document is reviewed annually by the Leadership Team, with input from the Advisory Board.\nProposed amendments are circulated to all lab members for comment before being adopted. Significant changes to governance structure require Advisory Board endorsement.\nThe current version of this document is maintained on the lab’s website and internal repository."
   },
   {
-    "objectID": "coc.html",
-    "href": "coc.html",
-    "title": "Code of Conduct",
+    "objectID": "partners.html",
+    "href": "partners.html",
+    "title": "Partners",
     "section": "",
-    "text": "The Impact Lab is a space for open, rigorous, and respectful collaboration — whether you’re a researcher, partner, training participant, or contributor to our tools. We expect everyone involved with our work to:\n\nBe respectful. Treat everyone with courtesy and professionalism, regardless of background, experience level, or perspective.\nBe honest. Uphold the integrity of your work — no fabrication, misrepresentation, or cutting corners on reproducibility.\nBe open. Engage with different ideas and ways of working. Our strength comes from diverse perspectives and genuine knowledge-sharing.\nBe accountable. Take responsibility for your contributions, flag problems when you see them, and be willing to learn from mistakes. Be inclusive. We do not tolerate harassment, discrimination, or exclusionary behaviour in any form — in person, online, or in our shared spaces.\n\nThese principles apply across all our activities: research, training, partnerships, and open-source collaboration.\nIf you experience or witness behaviour that falls short of these standards, please raise it with any member of the lab leadership team."
-  },
-  {
-    "objectID": "contact.html",
-    "href": "contact.html",
-    "title": "How to Reach Us",
-    "section": "",
-    "text": "We are located at Monash University, Clayton Campus."
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Monash Open Analytics Lab",
-    "section": "",
-    "text": "We build open-source tools grounded in the latest statistical methods that put the power of data — and the intelligence of AI — in the hands of those who need it most. By championing transparent, reproducible practices and delivering hands-on training, we grow the capability of governments, industries, and communities worldwide to make smarter, evidence-based decisions. Through global partnerships, we make sure those tools reach the problems they’re built to solve."
-  },
-  {
-    "objectID": "index.html#guiding-better-decisions---what-we-do",
-    "href": "index.html#guiding-better-decisions---what-we-do",
-    "title": "Monash Open Analytics Lab",
-    "section": "Guiding Better decisions - What we do",
-    "text": "Guiding Better decisions - What we do\nRigorous data analytics, applied to the challenges that matter — climate, health, and human wellbeing — translating complex evidence into clear insight for those who shape policy and drive change."
-  },
-  {
-    "objectID": "index.html#open-tools---what-we-build",
-    "href": "index.html#open-tools---what-we-build",
-    "title": "Monash Open Analytics Lab",
-    "section": "Open tools - What we build",
-    "text": "Open tools - What we build\nOpen-source software, workflows, and data resources that anyone can access, adapt, and build upon — because good tools should be shared, not siloed."
-  },
-  {
-    "objectID": "index.html#transparent-methods---how-we-work",
-    "href": "index.html#transparent-methods---how-we-work",
-    "title": "Monash Open Analytics Lab",
-    "section": "Transparent methods - How we work",
-    "text": "Transparent methods - How we work\nEvery assumption visible, every result verifiable — reproducible and auditable analytics that produce science which is trustworthy, ethical, and built to last. We think that’s just good practice."
-  },
-  {
-    "objectID": "index.html#global-impact---where-we-make-a-difference",
-    "href": "index.html#global-impact---where-we-make-a-difference",
-    "title": "Monash Open Analytics Lab",
-    "section": "Global impact - Where we make a difference",
-    "text": "Global impact - Where we make a difference\nFrom locally in the Monash University community, to Australia, the Pacific and Southeast Asia, working where the need is greatest — building local capability and partnerships that outlast any single project, one relationship at a time."
+    "text": "Code of Conduct\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHow to Reach Us\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMonash Open Analytics Lab\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLeadership Team\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNews\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nProjects\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nImpact Lab Governance Document\n\n\nMonash Open Data Analytics\n\n\n\n\n\n\n\n\n12 June 2026\n\n\n\n\n\n\n\n\n\n\n\n\nInternships\n\n\n\n\n\n\n\n\n\n\n\n20 May 2026\n\n\n\n\n\n\n\n\n\n\n\n\nStartR\n\n\n\n\n\n\n\n\n\n\n\n20 May 2026\n\n\n\n\n\n\n\n\n\n\n\n\nSustainable development in Timor-Leste\n\n\n\n\n\n\n\n\n\n\n\n20 May 2026\n\n\n\n\n\n\n\n\n\n\n\n\nWorkshops\n\n\n\n\n\n\n\n\n\n\n\n18 May 2026\n\n\n\n\n\n\n\n\n\n\n\n\nAutomate online tests\n\n\n\n\n\n\n\n\n\n\n\n10 April 2026\n\n\n\n\n\n\n\n\n\n\n\n\nQuarto templates\n\n\n\n\n\n\n\n\n\n\n\n10 April 2026\n\n\n\n\n\n\n\n\n\n\n\n\nSoftware\n\n\n\n\n\n\n\n\n\n\n\n9 April 2026\n\n\n\n\n\n\n\n\n\n\n\n\nLab Structure\n\n\n\n\n\n\n\n\n\n\n\n1 April 2026\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts.html",

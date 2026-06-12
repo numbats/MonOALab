@@ -1,5 +1,25 @@
 [
   {
+    "listing": "/partners.html",
+    "items": [
+      "/coc.html",
+      "/contact.html",
+      "/index.html",
+      "/people.html",
+      "/posts.html",
+      "/projects.html",
+      "/governance.html",
+      "/projects/internships.html",
+      "/projects/startr.html",
+      "/projects/timor.html",
+      "/projects/workshops.html",
+      "/projects/moodlequiz.html",
+      "/projects/quarto-templates.html",
+      "/projects/software.html",
+      "/posts/2026-04-launch.html"
+    ]
+  },
+  {
     "listing": "/posts.html",
     "items": [
       "/posts/2026-04-launch.html"
